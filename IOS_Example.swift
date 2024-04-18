@@ -1,3 +1,31 @@
+/*
+**iOS Swift**
+build a native app that captures video & audio from the camera
+adds mustache to the user' face using ARKit
+user should be able to change mustache style on the fly (embed a few mustache images)
+session video/duration should be saved into ORM
+
+
+Video screen
+recordings button (leads to Recording screen)
+Mustaches list. On tap currently selected mustaches get replaced
+Stop button. It stops recording and presenting a popup to a user. A popup contains a ‘tag’ text field. Once the user enters a ‘tag’, data gets saved(video / duration / ‘tag’) into ORM or DB
+
+
+Recording list screen
+A grid of the recordings
+Each row in the grid includes:
+Preview for a video
+video duration
+Tag
+New recording button(leads to the Video screen)
+
+
+Nice to have:
+Editing a tag on Recording list screen
+*/
+
+
 import ARKit
 import AVFoundation
 import CoreData 
